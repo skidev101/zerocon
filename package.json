@@ -1,10 +1,11 @@
 {
   "name": "zerocon",
+  "type": "module",
   "version": "1.0.0",
   "description": "zero configuration project setup tool",
   "bin": {
   	"zerocon": "dist/index.js"
-  }
+  },
   "main": "index.js",
   "scripts": {
     "dev": "ts-node src/bin/index.ts",
